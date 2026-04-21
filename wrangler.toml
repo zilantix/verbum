@@ -1,0 +1,8 @@
+name = "verbum"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# Binds Workers AI to the variable `env.AI` inside worker.js.
+# No API key needed — Cloudflare handles auth automatically.
+[ai]
+binding = "AI"
